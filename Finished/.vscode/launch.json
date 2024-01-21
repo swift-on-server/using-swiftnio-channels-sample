@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": ["swift"],
+      "args": [],
+      "cwd": "${workspaceFolder:swift-nio-part-2}",
+      "name": "Debug swift-nio-part-2",
+      "program": "${workspaceFolder:swift-nio-part-2}/.build/debug/swift-nio-part-2",
+      "preLaunchTask": "swift: Build Debug swift-nio-part-2"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": ["swift"],
+      "args": [],
+      "cwd": "${workspaceFolder:swift-nio-part-2}",
+      "name": "Release swift-nio-part-2",
+      "program": "${workspaceFolder:swift-nio-part-2}/.build/release/swift-nio-part-2",
+      "preLaunchTask": "swift: Build Release swift-nio-part-2"
+    }
+  ]
+}
