@@ -3,21 +3,25 @@
     {
       "type": "lldb",
       "request": "launch",
-      "sourceLanguages": ["swift"],
+      "sourceLanguages": [
+        "swift"
+      ],
       "args": [],
-      "cwd": "${workspaceFolder:swift-nio-part-2}",
+      "cwd": "${workspaceFolder:swift-nio-channels-sample}",
       "name": "Debug swift-nio-part-2",
-      "program": "${workspaceFolder:swift-nio-part-2}/.build/debug/swift-nio-part-2",
+      "program": "${workspaceFolder:swift-nio-channels-sample}/.build/debug/swift-nio-part-2",
       "preLaunchTask": "swift: Build Debug swift-nio-part-2"
     },
     {
       "type": "lldb",
       "request": "launch",
-      "sourceLanguages": ["swift"],
+      "sourceLanguages": [
+        "swift"
+      ],
       "args": [],
-      "cwd": "${workspaceFolder:swift-nio-part-2}",
+      "cwd": "${workspaceFolder:swift-nio-channels-sample}",
       "name": "Release swift-nio-part-2",
-      "program": "${workspaceFolder:swift-nio-part-2}/.build/release/swift-nio-part-2",
+      "program": "${workspaceFolder:swift-nio-channels-sample}/.build/release/swift-nio-part-2",
       "preLaunchTask": "swift: Build Release swift-nio-part-2"
     }
   ]
